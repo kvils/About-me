@@ -1,4 +1,8 @@
-body {margin: 0 auto;}
+body {
+	margin: 0 auto;
+	background: url(../img/bg.jpg) no-repeat center top;
+	color: #fff;
+}
 
 .wrapper {
 	max-width: 1250px;
@@ -13,7 +17,27 @@ body {margin: 0 auto;}
 	width: 50%;
 }
 
-.box_img img {
+.padding {padding: 100px;}
+.box_img a img {
 	display: inline-block;
-	max-width: 50%;
+	max-width: 70%;
+	border: 3px solid #2C2C2C;
+	border-radius: 50%;
+}
+
+.about {
+	padding-top: 120px;
+	color: #c2c6c9;
+}
+.about h1 {
+	color: #fff;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+
+.about span {
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: underline;
 }
