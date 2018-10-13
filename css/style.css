@@ -5,4 +5,15 @@ body {margin: 0 auto;}
 	width: 100%;
 	padding: 0 40px;
 	margin: 0 auto;
+	display: flex;
+}
+
+.box {
+	flex: none;
+	width: 50%;
+}
+
+.box_img img {
+	display: inline-block;
+	max-width: 50%;
 }
