@@ -182,26 +182,63 @@ footer li:hover {
 }
 
 /*Добавил в  последок*/
+.slider {
+	position: relative;
+	text-align: center;
+}
 
 .slider, .slider h1 {
 	color: #fff;
+	font-size: 44px;
+	font-weight: 100;
+	line-height: 22px;
 }
+
+.slider h1 {margin: 6px 0 8px 0;}
+
+.slider p {
+	font-size: 16.5px;
+	line-height: 22px;
+	margin: 5px 0 6px 0;
+	color: rgba(255, 255, 255, 0.4);
+}
+
+.slider span {
+	font-size: 13px;
+	line-height: 22.5px;
+	color: #7d7c7c;
+	padding-top: 4px;
+	border-top: 1px solid #7d7c7c;
+}
+
 .slider img {
 	width: 100%;
 	height: auto;
+}
+
+.slider ul {
+	margin: 0 auto;
+	bottom: 111px;
+	position: relative;
 }
 
 .slider li {
 	background-color: #272b2c;
 	display: inline-block;
 	width: 92px;
+	height: 93px;
+	margin-right: -12px;
 	text-align: center;
+	border-radius: 10px;
 }
 
 .slider li:first-child,
 .slider li:last-child {
 	width: 36px;
 	height: 36px;
+	position: relative;
+	bottom: 30px;
+	margin: 0 -5px 0 5px;
 }
 
 .slider li:first-child img,
@@ -211,9 +248,58 @@ footer li:hover {
 }
 
 .slider .info {
-	width: 464px;
+	width: 436px;
+	height: 71px;
+	position: relative; /*придаем  свойство налаживание v1*/
+	padding: 11px 10px 11px 18px;
+	bottom: 12px;
 }
 
 
+.info h2 {
+	margin: 0 0 17px 0;
+	font-size: 27.5px;
+	font-weight: 100;
+	text-align: left;
+	text-transform: none;
+}
+
+.info p {
+	font-size: 13px;
+	font-weight: 100;
+	color: #fff;
+	text-align: left;
+	border-top: none;
+	line-height: normal;
+	text-transform: none;
+}
+
+.info input[type=button] {
+	position: relative; /*налажеемый элемент v2*/
+	color: #fff;
+	font-size: 11px;
+	border: none;
+	text-align: right;
+	background-color: #484c4d;
+	float: right;
+	bottom: 35px;
+	right: 9px;
+	z-index: 2;
+	padding: 9px 12px;
+
+}
+
+.info img {
+	width: 31px;
+	height: 74px;
+	float: right;
+	position: relative;
+	bottom: 78px;
+	z-index: 2;
+}
+
+.active {
+	background: linear-gradient(to top right, #dd492a, #e54b2b);
+}
 
 
