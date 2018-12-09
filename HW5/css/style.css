@@ -1,0 +1,381 @@
+@import url(footer.css);
+@import url(section.css);
+body {
+	width: 100%;
+	max-width: 2000px;
+	background-color: #fff;
+	color: #808080;
+	font-size: 18px;
+	font-family: "Lato-Regular", "Lato", "Lato-Black", sans-serif;
+	margin: 0 auto;
+}
+
+.container {
+	width: 80%;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+header {
+	background: url(../img/rectangle-3.png) no-repeat;
+	/*без повторения*/
+}
+
+li {
+	display: inline-block; /*Выравниваем --- >*/
+	list-style-type: none; /*Без маркировка*/
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+header ul {
+	display: flex;
+}
+
+header li {
+	padding-left: 65px;
+	margin-top: 53px;
+}
+
+header li:nth-child(2){
+	padding-left: 0;
+}
+
+header li:first-child {
+	display: block;
+	padding-left: 0;
+	padding-right: 900px;
+	margin-top: 41px;
+}
+
+a {
+	text-decoration: none;
+}
+
+header a {
+	color: #fff;
+	font-size: 18px;
+}
+
+header a:hover {
+	text-decoration: line-through;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	padding-top: 115px;
+}
+
+h1 {
+	margin: 80px 0 0 0	;
+	font-size: 72px;
+	font-family: "Lato-Black", sans-serif;
+}
+
+h2 {
+	font-size: 60px;
+	color: #363636;
+}
+
+h2 span {color: #d90647;}
+
+main p {
+	margin: 20px 0 0 0;
+	font-size: 24px;
+}
+
+main span {
+	font-weight: bold; /*Жирность*/
+}
+
+main input[type="button"]{
+	margin-top: 101px;
+	border: none;
+	border-radius: 25px;
+	color: rgba(223, 27, 61, 1);
+	padding: 11px 51px;
+	font-size: 18px;
+	background-color: #fff;
+	text-shadow: 0px 10px 30px rgba(223, 27, 61, 0.3);
+	font-weight: bold;
+}
+
+main div:first-child {
+	padding-right: 0.126875%;
+}
+/*#############*/
+article .EasyKeep {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0px;
+}
+
+article .EasyKeep:first-child {
+	padding-bottom: 264px;
+	border-bottom: 1px solid #e0e0e0;
+}
+article .EasyKeep div {
+	flex: 1 0 500;
+	max-width: 700px;
+}
+
+.EasyKeep img {
+	position: relative;
+}
+
+.conversation {
+ 	top: 55px;
+    right: 210px;
+ 	z-index: 1;
+ }
+
+ .contacts-copy {
+ 	z-index: 1;
+ 	top: 150px;
+ 	left: 150px;
+ }
+
+ .img {display: flex;}
+
+ div:nth-child(2) h2 {
+ 	margin-top: 191px;
+ }
+
+ .EasyKeep div:nth-child(2) p,
+ .EasyKeep div:nth-child(3) p {
+ 	margin-right: 116px;
+ 	line-height: 32px;
+ }
+
+ section h2 {
+ 	text-align: center;
+ 	margin: 95px 0 128px 0;
+ }
+
+/*#############*/
+.people {
+	display: flex;
+	padding: 0 21.875% 242px 21.875%;/*350px*/
+}
+
+.people blockquote {
+	font-size: 18px;
+	font-style: italic;
+	line-height: 32px;
+	color: #808080;
+	margin: 28px 30px 26px 27px;
+} 
+
+.people img {
+	border-radius: 50%;
+}
+
+.people p {
+	font-size: 18px;
+	color: #363636;
+	letter-spacing: 1.1px;
+}
+
+.autor span {
+	font-size: 16px;
+	color: #667386;
+	font-family: Ubuntu;
+}
+
+.people a {
+	font-size: 18px;
+	color: #d90647;
+	font-weight: bold;
+	display: inline-block;
+	margin: 0 0 25px 30px;
+}
+
+.boxcentr .blockquote {
+	position: relative;
+	bottom: 30px;
+	box-shadow: 0px 30px 60px 0 rgba(54, 54, 54, 0.15);
+}
+
+.blockquote {
+	border: 1px solid #e0e0e0;
+}
+
+blockquote::after {
+    content: ''; 
+    position: relative; /* Абсолютное позиционирование */
+	top: 107px;
+	right: 8.75%; /*140px*/
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-top: 10px solid #e0e0e0; /* Добавляем треугольник */
+ }
+
+.people>div:nth-child(2) {
+	margin: 0 30px;
+}
+
+.autor {
+	margin-top: 30px;
+}
+
+.autor p {
+	display: inline-block;
+	position: relative;
+	bottom: 23px;
+	left: 19px;
+}
+
+/*#############*/
+.HeyU {
+	display: flex;
+	color: #fff;
+	padding: 0 0.21875%;/*350px*/
+	margin-bottom: 227px;
+	height: 517px;
+	background-image: linear-gradient(to top, #eb402c, #d90647);
+}
+
+.HeyU h3 {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	font-family: Lato-Black;
+}
+
+.HeyU p {
+	font-size: 16px;
+	opacity: 0.6;
+	margin: 0;
+	color: rgba(255, 255, 255, 0.6);
+} 
+
+.HeyU h3 { margin: 0 0 20px 0; }
+
+
+.colleft img, .colright h3 {
+	margin-left: 0.268%; /*43px*/
+}
+
+.colleft img,
+.colright img {
+	stroke: red;
+}
+
+.colleft img, .colright img {
+	top: 10px;
+	position: relative;
+}
+
+.colleft p { margin: 0 0.056% 0 0; }/*90px*/
+.colright p { margin: 0 0 0.056%; }/*90px*/
+.colleft  { text-align: right; }
+
+.row1 h3 {margin-top: 122px;}
+.row2 {margin: 64px 0 0 0;}
+.colright .row2 {margin: 81px 0 0 0;}
+
+.colcenter img{
+	position: relative;
+	bottom: 84px;
+}
+
+/*#############*/
+.adress {
+	padding: 0 21.875% 147px 21.875%;/*350*/
+	text-align: center; 
+}
+.adress input {
+	border: none;
+	border-radius: 25px;
+	height: 50px;
+}
+
+.adress input[type="email"] {
+	width: 35.6875%;/*571px*/
+	padding-left: 1.9375%;/*31px*/
+	background-color: #f8f8f8;
+}
+
+.adress input[type="button"] {
+	padding: 0 51px;
+	z-index: 1;
+	right: 40px;
+	position: relative;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	background-image: linear-gradient(to top, #eb402c, #d90647);
+}
+
+.WhatPeople{
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.adress p { margin: 0 0 70px 0; }
+
+.adress h2 { margin: 0 0 49px 0; }
+
+.adress form { margin: 0 0 147px 0; }
+/*#############*/
+.Download {
+	padding-bottom: 148px;
+	text-align: center;
+	border-bottom: 1px solid #e0e0e0;
+}
+.Download h2 {margin: 0px;}
+.Download p {margin-bottom: 41px;}
+.Download img { margin: 102px 0 0 0; }
+/*#############*/
+footer a{color: #363636;}
+
+footer li {
+	padding-left: 4.0625%;/*65px*/
+	margin: 46px 0 2.5% 0; /*40px*/
+}
+
+footer li:forst-child { padding-left: 0px; }
+footer li:nth-child(6) {float: right;}
+
+/*Языковая панель*/
+footer ul {
+    overflow: hidden;
+}
+
+footer li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer li.dropdown {
+	background-color: #f8f8f8;
+	border-radius: 25px;
+	padding: 12px 1.9375%; /*31px*/
+	margin-top: 32px;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown .fa-angle-down {
+	padding-left: 3.8125; /*61px*/
+}	

@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+	footer li {
+		padding-left: 0 !important;
+		display: block !important;
+		margin: 2.875% 0 0 0 !important;
+	}
+
+	footer li:nth-child(6) {float: none !important;}
+
+}
+
