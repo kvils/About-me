@@ -1,0 +1,102 @@
+@media (max-width: 768px) {
+	main  {
+		display: block !important;
+		text-align: center !important;
+	}
+	article .EasyKeep {
+		text-align: center;
+	}
+
+	.EasyKeep div:nth-child(2) p,
+ 	.EasyKeep div:nth-child(3) p {
+ 	margin-right: 0 !important;
+ 	}
+
+	.img, .EasyKeep img {display: block !important;}
+	img[alt="messages"] {margin-left: 5%;}
+	img[alt="groups"] {
+		margin-left: 10%;
+		display: block !important;	
+	}
+	/*#############*/
+	.HeyU {
+		flex-direction: column !important;
+		justify-content: center !important;
+		height: 100% !important;
+	}
+
+	.HeyU > .colleft {order:1  !important;}
+	.HeyU > .colcenter {
+		order:3  !important;
+		text-align: center;
+	}
+
+	.HeyU > .colright {order:2  !important;}
+
+	.colleft, .colright {
+		text-align: center !important;
+		display: block !important;
+	}
+
+	.colcenter img {
+		bottom: 0 !important;
+		width: 80% !important;/*display 430px*/
+	}
+	/*#############*/
+	.adress {
+		padding: 0 5px 147px 5px !important;
+	}
+	
+	.conversation,
+	.contacts-copy {
+ 	top: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+ 	z-index: 0 !important;
+ }
+
+	.adress input[type="email"],
+	.adress input[type="button"] {
+		width: 80% !important;
+	}
+
+	.adress input[type="button"] {
+		z-index: none !important;
+		right: 0 !important;
+		position: none !important;
+		margin-top: 10px;
+	}
+	/*#############*/
+	.Download img {
+		padding: 102px 0 0 0 !important;
+		margin: 0 auto !important;
+	}
+}
+
+@media (max-width: 1200px) {
+	.people {
+		display: block !important;
+		justify-content: center !important;
+		padding: 0 5px 242px 5px !important;
+	}
+
+	.people .blockquote {
+		width: 90% !important;
+		margin: 0 auto;
+	}
+
+	.people .autor {margin-left: 5.2083%;}
+	.autor img {display: inline-block !important;}
+	.boxcentr {margin-top: 30px !important;}
+
+}
+
+
+/*Посмотреть  к отсупам*/
+/*Проскакать
+/*320 стиль*/
+/*@media (min-width: 576px) { ... }
+@media (min-width: 768px) { ... }
+@media (min-width: 992px) { ... }
+@media (min-width: 1200px) { ... }*/
+

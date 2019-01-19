@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Theater</title>
+	<meta name="viewport" content="width=device=width, initial-scale=1.0"><!--Адаптация под  мобильное приложения-->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div>
+				<a href="#"><img src="img/invalid-name.png"></a>
+			</div>
+				<ul>
+					<li><a href="#">Головна</a></li>
+					<li><a href="#">Афiша</a></li>
+					<li><a href="#">Репертуар</a></li>
+					<li><a href="#">Новини</a></li>
+					<li><a href="#">Про театр</a></li>
+					<li><a href="#">Персоналi</a></li>
+					<li><a href="#">Контакти</a></li>
+					<li><a href="#">Фестивалi</a></li>
+					<!--Подскажите пожалуйста как лучше сделать данный блок  при  верстке-->
+					<li><a href="#">Укр <i class="fas fa-caret-down"></i></a></li>
+				</ul>
+			</nav>
+		</header>
+		<nav class="slider">
+			<img src="img/model.png">
+			<ul>
+				<li class="active"><img src="img/arrowsleft.png"></li>
+				<li>
+					<p>Hд<h1>21</h1><span>Лютого</span></p>
+				</li>
+				<li>
+					<p>Пн<h1>22</h1><span>Лютого</span></p>
+				</li>
+				<li class="active">
+					<p>Пн<h1>22</h1><span>Лютого</span></p>
+				</li>
+				<li class="info active">
+					<h2>Сад гетсиманський</h2>
+					<p>Народна трагедія на 2 дії<br>
+					Тривалість вистави 2 год 20 хв.</p>
+					<img src="img/qr-code.png">
+					<input type="button" name="" value="купити квиток">
+				</li>
+				<li>
+					<p>Чт<h1>25</h1><span>Лютого</span></p>
+				</li>
+				<li>
+					<p>Пн<h1>26</h1><span>Лютого</span></p>
+				</li>
+				<li><img src="img/arrowsright.png">
+				</li>
+			</ul>
+		</nav><!--Получился  огромный отступ с низу, 
+		возможно исправить если  задать height 500px,  о   все  это подозреваю  из-за  того  что  не разумно
+		раздавал зачения position-->
+		<section>
+			<menu>
+				<li><img src="img/icon.png"><a href="">Фотоархів</a></li>
+				<li><img src="img/icon2.png"><a href="">Відеоархів</a></li>
+				<li><img src="img/icon3.png"><a href="">Піклувальна рада</a></li>
+				<li><i class="fas fa-handshake"></i><a href="">Партнери</a></li>
+				<li><img src="img/icon5.png"><a href="">Форум</a></li>
+			</menu>
+			<article>
+				<h1>Новини</h1>
+				<div class="block">
+					<img src="img/invalid-name2.png">
+					<span class="text">
+						<h4>Назва новини</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+						<p class="statistics">12.02.2015<span><i class="fas fa-eye"></i> 112</span></p>
+					</span>
+				</div>
+				<div class="block">
+					<img src="img/invalid-name2.png">
+					<span class="text">
+						<h4>Назва новини</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+						<p class="statistics">12.02.2015<span><i class="fas fa-eye"></i> 112</span></p>
+					</span>
+				</div>
+				<div class="block">
+					<img src="img/invalid-name2.png">
+					<span class="text">
+						<h4>Назва новини</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+						<p class="statistics">12.02.2015<span><i class="fas fa-eye"></i> 112</span></p>
+					</span>
+				</div>
+			</article>
+			<aside>
+				<h1>Галерея</h1>
+				<div class="block">
+					<img src="img/invalid-name3.png">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+				</div>
+				<h1>Відео</h1>
+				<div class="block">
+					<video width="235" height="158" poster="img/invalid-name4.png"></video>
+					<!--<img src="img/Triangle.png" class="triangle">-->
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+				</div>
+			</aside>
+		</section>	
+		<footer class="str">
+			<nav>
+			<a href="#">Головна</a>
+			<a href="#">Афіша</a>
+			<a href="#">Репертуар</a>
+			<a href="#">Новини</a>
+			<a href="#">Про театр</a>
+			<a href="#">Персоналії</a>
+			<a href="#">Контакти</a>
+			<a href="#">Фестивалі</a>
+			<a href="#">Форум</a>
+			</nav>
+			<ul>
+				<li><a href="#"><img src="img/vk-3.png"></a></li>
+				<li><a href="#"><img src="img/videos.png"></a></li>
+				<li><a href="#"><img src="img/google-116.png"></a></li>
+				<li><a href="#"><img src="img/facebook-12.png"></a></li>
+				<li><a href="#"><img src="img/bird-1.png"> </a></li>
+			</ul>
+		</footer>
+	</div>
+</body>
+</html>
